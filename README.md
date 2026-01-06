@@ -67,8 +67,17 @@ Depuis un autre terminal, connectez-vous comme un attaquant :
 ```telnet 127.0.0.1 2323```
 
 ### Analyse des Logss
-L'activité est enregistrée en temps réel dans honeypot.log : [Tue Jan 6 21:10:12 2026] [IP:127.0.0.1] COMMANDE RECUE: cd etc [Tue Jan 6 21:10:15 2026] [IP:127.0.0.1] COMMANDE RECUE: cat passwdam## Sécuritéutil d'apprentissage et de recherche.
+L'activité est enregistrée en temps réel dans honeypot.log : 
+[Tue Jan 6 21:10:12 2026] [IP:127.0.0.1] COMMANDE RECUE: cd etc 
+[Tue Jan 6 21:10:15 2026] [IP:127.0.0.1]
+
+
+## Sécurité util d'apprentissage et de recherche.
 
 Isolation : Ne faites jamais tourner ce programme avec les droits root réels.
 
 Exposition : Utilisez une machine virtuelle (VM) ou un conteneur isolé pour éviter qu'un attaquant ne puisse atteindre votre hôte physique en cas de faille dans le code C.
+
+
+
+(ce projet est purement en cours de dévellopement et non complet, si vous avez des questions sur des méthodes utilisées ou tout simplement sur mes projets, vous pouvez me contacter sur discord @fiakx)
