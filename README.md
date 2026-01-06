@@ -2,7 +2,7 @@
 ## Présentation
 Ce projet est un **Honeypot (pot de miel)** de haute interaction développé entièrement en langage **C**. Il simule un serveur Debian vulnérable pour attirer les attaquants, enregistrer leurs adresses IP et capturer l'intégralité des commandes saisies dans un système de fichiers virtuel.
 
-Ce programme sert de "pense-bête" interactif pour les administrateurs souhaitant observer les opérations quotidiennes de manipulation et de surveillance effectuées par des tiers[cite: 6]. Contrairement à un simple écouteur de port, il implémente une structure d'arborescence dynamique permettant une navigation réaliste (qui n'est absolument pas fini).
+Ce programme sert de "pense-bête" interactif pour les administrateurs souhaitant observer les opérations quotidiennes de manipulation et de surveillance effectuées par des tiers. Contrairement à un simple écouteur de port, il implémente une structure d'arborescence dynamique permettant une navigation réaliste (qui n'est absolument pas fini).
 
 
 
@@ -20,23 +20,23 @@ Ce programme sert de "pense-bête" interactif pour les administrateurs souhaitan
 Le Honeypot utilise les définitions standard pour simuler un environnement crédible :
 
 ### Navigation et Système
-* **`ls`** : Liste les fichiers et les répertoires du répertoire de travail en cours[cite: 134].
-* **`cd`** : Modifie le répertoire courant et permet de basculer entre les répertoires[cite: 27].
-* **`pwd`** : Affiche le nom du répertoire de travail en cours[cite: 177].
-* **`whoami`** : Affiche le nom de l'utilisateur en cours[cite: 257].
-* **`uname`** : Affiche le nom du système d'exploitation actuel et des informations système[cite: 242].
+* **`ls`** : Liste les fichiers et les répertoires du répertoire de travail en cours.
+* **`cd`** : Modifie le répertoire courant et permet de basculer entre les répertoires.
+* **`pwd`** : Affiche le nom du répertoire de travail en cours.
+* **`whoami`** : Affiche le nom de l'utilisateur en cours.
+* **`uname`** : Affiche le nom du système d'exploitation actuel et des informations système.
 
 ### Manipulation de Fichiers et Dossiers
-* **`cat`** : Lit et affiche le contenu des fichiers texte[cite: 24, 25].
-* **`mkdir`** : Crée un nouveau répertoire[cite: 152].
-* **`touch`** : Permet de créer un fichier vide[cite: 231].
-* **`chmod`** : Simule la modification des permissions d'un fichier[cite: 29, 30].
-* **`cp`** : Copie les fichiers et les répertoires[cite: 44, 46].
+* **`cat`** : Lit et affiche le contenu des fichiers texte.
+* **`mkdir`** : Crée un nouveau répertoire.
+* **`touch`** : Permet de créer un fichier vide.
+* **`chmod`** : Simule la modification des permissions d'un fichier.
+* **`cp`** : Copie les fichiers et les répertoires.
 
 ### Surveillance et Utilitaires
-* **`df`** : Affiche la quantité d'espace disponible sur le système de fichiers[cite: 66].
-* **`apt-get`** : Simule l'outil de mise à jour automatique et d'installation de packages Debian[cite: 12, 13].
-* **`alias`** : Moyen d'exécuter une commande via un nom plus court[cite: 10, 11].
+* **`df`** : Affiche la quantité d'espace disponible sur le système de fichiers.
+* **`apt-get`** : Simule l'outil de mise à jour automatique et d'installation de packages Debian.
+* **`alias`** : Moyen d'exécuter une commande via un nom plus court.
 
 ---
 
