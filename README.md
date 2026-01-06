@@ -51,18 +51,17 @@ Le Honeypot utilise les définitions standard pour simuler un environnement cré
 Ouvre un terminal dans le dossier du projet et compile le code :
 ```bash gcc honeypot.c -o honeypot```
 
-## Lancement
+
+## Lancement
 Pour démarrer le serveur sur le port par défaut (2323) :
 
-###Bash
+### Bash
 
 ```./honeypot```
 
 ## Utilisation
 Se connecter au Honeypot
 Depuis un autre terminal, connectez-vous comme un attaquant :
-
-### Bash
 
 ```telnet 127.0.0.1 2323```
 
