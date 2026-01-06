@@ -40,7 +40,7 @@ Le Honeypot utilise les définitions standard pour simuler un environnement cré
 
 ---
 
-## ⚙️ Installation et Compilation
+## Installation et Compilation
 
 ### Prérequis
 * Un compilateur C (`gcc`).
@@ -66,7 +66,8 @@ Depuis un autre terminal, connectez-vous comme un attaquant :
 
 ```telnet 127.0.0.1 2323```
 
-### Analyse des LogssL'activité est enregistrée en temps réel dans honeypot.log : [Tue Jan 6 21:10:12 2026] [IP:127.0.0.1] COMMANDE RECUE: cd etc [Tue Jan 6 21:10:15 2026] [IP:127.0.0.1] COMMANDE RECUE: cat passwdam## Sécuritéutil d'apprentissage et de recherche.
+### Analyse des Logss
+L'activité est enregistrée en temps réel dans honeypot.log : [Tue Jan 6 21:10:12 2026] [IP:127.0.0.1] COMMANDE RECUE: cd etc [Tue Jan 6 21:10:15 2026] [IP:127.0.0.1] COMMANDE RECUE: cat passwdam## Sécuritéutil d'apprentissage et de recherche.
 
 Isolation : Ne faites jamais tourner ce programme avec les droits root réels.
 
