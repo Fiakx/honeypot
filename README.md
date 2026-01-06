@@ -68,8 +68,8 @@ Depuis un autre terminal, connectez-vous comme un attaquant :
 
 ### Analyse des Logss
 L'activité est enregistrée en temps réel dans honeypot.log : 
-[Tue Jan 6 21:10:12 2026] [IP:127.0.0.1] COMMANDE RECUE: cd etc 
-[Tue Jan 6 21:10:15 2026] [IP:127.0.0.1]
+`[Tue Jan 6 21:10:12 2026] [IP:127.0.0.1] COMMANDE RECUE: cd etc 
+[Tue Jan 6 21:10:15 2026] [IP:127.0.0.1]`
 
 
 ## Sécurité util d'apprentissage et de recherche.
